@@ -16,7 +16,6 @@
   },
   "license": "ISC",
   "author": "Inchara",
-  "type": "commonjs",
   "main": "server.js",
   "type" : "module",
   "scripts": {
