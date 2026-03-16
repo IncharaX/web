@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS selectors</title>
+    <style>
+        /*.box:first-child{
+            background-color: red;
+        }*/
+        /*.box::first-line{
+            color: blue;
+        }*/
+        /* .boxes *{
+            color: aqua;
+            border: 2px solid black;
+        } */
+          /* p,a,.box,  [data-color="primary"]{
+                margin-top: 45px;
+            } */
+            /* .box:nth-child(odd){
+                background-color: blue;
+            } */
+         .boxes::before{
+            content: "i am a good girl";
+         }   
+         ::selection{
+            color: blueviolet;
+            background-color: brown;
+         } 
+        
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">i am first child</div>
+        <div class="box">hey i am box</div>
+        <div class="box">hey i am box</div>
+    </div>
+    
+</body>
+</html>
